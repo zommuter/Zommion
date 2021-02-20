@@ -58,3 +58,4 @@ Anything not required in detail anymore, such as ancient blocks containing only 
 
 ## Oracling
 
+Mining is such a horrible waste of computational power. The proposal of oracling is simple: Each transaction to the oracle pot (including decay and transaction fees or only if done on purpose?) deterministically gets a hash assigned. After a certain amount of cycles (to be determined such that abusing the algorithm as perverted proof-of-work) the pot is split among oracle transactions according to their proximity to the current blockchain hash and the value invested. Details to be done...
