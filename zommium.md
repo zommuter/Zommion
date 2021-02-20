@@ -16,6 +16,7 @@ In order to stick to the theme, anything related to Zommium will probably start 
 * decay
 * "bringschuld" for transaction validity
 * lots of divide and conquer (d&c) and thus logarithms
+* oracling
 
 ## Fixing blockchain growth
 
@@ -26,5 +27,15 @@ Instead of storing the entire blockchain it is sufficient to keep track of all c
 By introducing decay, there is no need to store transactions forever, thus blockchain growth is limited. "Bringschuld" means the author of a transaction has to provide part of the data required to verify its validity instead of forcing innocent bystanders to keep track for them. And thanks to d&c anything growing nonetheless at least will only grow logarithmically instead of linearly or even exponentially. Except for the exchange rate of course, hopefully.
 
 ## Loss aversion
+
+Decay means anything lost is not lost forever but just for a limited time.
+
 ## PoW
+
+One fundamental concept of the bitcoin blockchain is the proof-of-work: A tremendously stupid calculation of hashes in order to proof sufficient investment in the system in order to prevent fraud. Unfortunately this mostly heats up the universe for nothing. In a perfect world the proof-of-work would at least provide useful computations itself, e.g. public CFD simulations or whatnot. Proof-of-stake sounds like a much more viable and realistic alternative though. And of course, instead of reading up on that I just invented my own scheme, which may or may not be a good idea: Oracling
+
 ## Hodling/Speculation
+
+"Hodling", i.e. speculative holding on to bitcoins, and speculation in general are not the true purpose of a cryptocurrency. Of course it is impossible to prevent, but the very least thing speculants should do is support the system by participating in Oracling. Yet another reason for the decay.
+
+# Details
